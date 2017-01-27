@@ -5,7 +5,7 @@
 /tmp
 
 #Firebase credentials
-/scr/app/api-keys.ts
+/src/app/api-keys.ts
 
 # dependencies
 /node_modules
