@@ -3,8 +3,9 @@
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
 
 ## Setup
+* Open project in browser at: https://character-list.firebaseapp.com/
 * Clone this repo from https://github.com/ericanafziger/angular2-kingkiller-character-list
-* In terminal cd angular2-kingkiller-roster
+* In terminal cd angular2-kingkiller-character-list
 * Run npm install and bower install
 
 ## Adding Firebase Configuration
