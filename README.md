@@ -3,7 +3,7 @@
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
 
 ## Setup
-* Clone this repo from https://github.com/ericanafziger/angular2-kingkiller-roster
+* Clone this repo from https://github.com/ericanafziger/angular2-kingkiller-character-list
 * In terminal cd angular2-kingkiller-roster
 * Run npm install and bower install
 
