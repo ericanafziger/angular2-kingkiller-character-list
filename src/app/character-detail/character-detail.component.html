@@ -1,3 +1,18 @@
-<p>
-  character-detail works!
-</p>
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a routerLink="">Back to Character List</a></li>
+    <!-- <li><a routerLink="">Next Character</a></li>
+    <li><a routerLink="">Previous Character</a></li> -->
+  </ol>
+  <div class='panel panel-default'>
+    <div class="panel-heading">
+      <h4 class="panel-title">{{(characterToDisplay | async)?.name}} Character Detail</h4>
+    </div>
+    <div class="panel-body">
+      <p>{{(characterToDisplay | async)?.tagLine}}</p>
+      <p>{{(characterToDisplay | async)?.description}}</p>
+      <p *ngIf="(characterToDisplay | async)?.villian">Villian</p>
+      <p *ngIf="!(characterToDisplay | async)?.villian">Hero</p>
+    </div>
+  </div>
+</div>

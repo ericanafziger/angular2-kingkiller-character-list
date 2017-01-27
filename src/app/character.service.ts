@@ -13,4 +13,8 @@ export class CharacterService {
   getCharacters() {
     return this.characters;
   }
+
+  getCharacterById(characterId: string) {
+    return this.angularFire.database.object('/characters/' + characterId)
+  }
 }
