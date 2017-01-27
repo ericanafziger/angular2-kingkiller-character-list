@@ -14,3 +14,11 @@
     margin-bottom: 10px;
   }
 }
+.profilePhoto {
+  width: 180px;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  height: 180px;
+  object-fit: cover;
+}

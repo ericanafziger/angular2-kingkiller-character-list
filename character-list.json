@@ -6,7 +6,8 @@
       "gender" : "Male",
       "name" : "Ambrose Jakis",
       "species" : "Human",
-      "tagLine" : "The firstborn son of a powerful and wealthy nobleman from Vintas, the Baron Jakis. He is the main rival of Kvothe during his time at the University."
+      "tagLine" : "The firstborn son of a powerful and wealthy nobleman from Vintas, the Baron Jakis. He is the main rival of Kvothe during his time at the University.",
+      "image": "http://orig01.deviantart.net/8591/f/2015/074/b/9/ambrose_jakis_by_lemonade8-d8lw7gp.png"
     },
     "1" : {
       "category" : "Neutral",
@@ -14,7 +15,8 @@
       "gender" : "Female",
       "name" : "Denna",
       "species" : "Human",
-      "tagLine" : "Denna is arguably the main romantic interest of Kvothe who holds an irresistible fascination with her."
+      "tagLine" : "Denna is arguably the main romantic interest of Kvothe who holds an irresistible fascination with her.",
+      "image": "https://s-media-cache-ak0.pinimg.com/originals/a6/17/8e/a6178e652071ac64ca34f506a5930425.jpg"
     },
     "2" : {
       "category" : "Hero",
@@ -22,7 +24,8 @@
       "gender" : "Male",
       "name" : "Kvothe",
       "species" : "Human",
-      "tagLine" : "Kvothe is the main character in the Kingkiller Chronicle. He is exceptionally intelligent, quick-witted, sharp-tongued and clever, as well as a talented musician."
+      "tagLine" : "Kvothe is the main character in the Kingkiller Chronicle. He is exceptionally intelligent, quick-witted, sharp-tongued and clever, as well as a talented musician.",
+      "image": "https://s-media-cache-ak0.pinimg.com/originals/a5/ac/2b/a5ac2b76ae8deb725025a09831586595.png"
     },
     "3" : {
       "category" : "Neutral",
@@ -30,15 +33,17 @@
       "gender" : "Female",
       "name" : "Auri",
       "species" : "Human",
-      "tagLine" : "Auri is a former student of The University and a close friend of Kvothe."
+      "tagLine" : "Auri is a former student of The University and a close friend of Kvothe.",
+      "image": "http://img13.deviantart.net/44c5/i/2015/349/e/1/the_kingkiller_chronicle___auri_by_stretch1-d9k7j1s.jpg"
     },
     "4" : {
       "category" : "Neutral",
-      "description" : "One of the magical Fae, Felurian is essentially considered the most beautiful and insatiable woman in the known worlds. She is described as having pale, smooth skin that shimmers in the moonlight, and long black hair \"like a sheaf of shadows.\" She has a petal-shaped mouth and dark, curious eyes. Her eyelids are patterned with designs resembling a butterfly's wings.\n\nDue to Felurian's erotic disposition, she is almost always nude. She enjoys music, often personally enticing men with the sound of her singing. She is infamous in legend for seducing human men with her beauty, inevitably to either kill them through sexual exhaustion or to drive them insane. However, Kvothe learns during his encounter with Felurian that it is not necessarily her excessive lust that drives men to madness - rather, after she eventually tires of her lovers and sends them away, they go mad from wanting her.",
+      "description" : "One of the magical Fae, Felurian is essentially considered the most beautiful and insatiable woman in the known worlds. She is described as having pale, smooth skin that shimmers in the moonlight, and long black hairlike a sheaf of shadows. She has a petal-shaped mouth and dark, curious eyes. Her eyelids are patterned with designs resembling a butterfly's wings. Due to Felurian's erotic disposition, she is almost always nude. She enjoys music, often personally enticing men with the sound of her singing. She is infamous in legend for seducing human men with her beauty, inevitably to either kill them through sexual exhaustion or to drive them insane. However, Kvothe learns during his encounter with Felurian that it is not necessarily her excessive lust that drives men to madness - rather, after she eventually tires of her lovers and sends them away, they go mad from wanting her.",
       "gender" : "Female",
       "name" : "Felurian",
       "species" : "Fae",
-      "tagLine" : "Felurian is a seemingly immortal Fae, known in folktales throughout The Four Corners of Civilization"
+      "tagLine" : "Felurian is a seemingly immortal Fae, known in folktales throughout The Four Corners of Civilization",
+      "image": "https://s-media-cache-ak0.pinimg.com/originals/79/1c/08/791c087c2dc18b749f500c657269f463.jpg"
     },
     "5" : {
       "category" : "Hero",
@@ -46,7 +51,8 @@
       "gender" : "Male",
       "name" : "Bast",
       "species" : "Fae",
-      "tagLine" : "Bast is Kvothe's student, apprentice, and assistant who lives with him at the Waystone Inn. He is a main character in the frame story."
+      "tagLine" : "Bast is Kvothe's student, apprentice, and assistant who lives with him at the Waystone Inn. He is a main character in the frame story.",
+      "image": "http://vignette3.wikia.nocookie.net/nameofthewind/images/d/df/Bast_from_name_of_the_wind_by_fattylumpkin50-d31irti.jpg/revision/latest?cb=20121124051417"
     },
     "6" : {
       "category" : "Neutral",
@@ -54,15 +60,17 @@
       "gender" : "Female",
       "name" : "Fela",
       "species" : "Human",
-      "tagLine" : "Fela is a smart and beautiful woman who is a classmate and friend of Kvothe at The University."
+      "tagLine" : "Fela is a smart and beautiful woman who is a classmate and friend of Kvothe at The University.",
+      "image": "https://s-media-cache-ak0.pinimg.com/originals/82/58/db/8258dbb105f42b891daa28b595f8c12d.jpg"
     },
     "7" : {
       "category" : "Neutral",
-      "description" : "Master Elodin was an exceptionally brilliant student and also the youngest to have ever been admitted to the University, at the age of 14. By the time he turned 18, he had become a Full Arcanist and began working as a Giller. He continued on to become Master Namer and then Chancellor of the University, though this was short lived.\n\nHe is at least a dozen years younger than the rest of the Masters in the University and is described as an average looking clean shaven man. His dark eyes are often depicted as his most striking feature. He is well-known for his eccentric personality and erratic antics. This causes some in the University to look down upon him; nevertheless, as befits his position as a Master, he demonstrates an understanding of his respective field of study that few in the modern world can equal.\n\nElodin is best known for his committal and ensuing escape from Haven.",
+      "description" : "Master Elodin was an exceptionally brilliant student and also the youngest to have ever been admitted to the University, at the age of 14. By the time he turned 18, he had become a Full Arcanist and began working as a Giller. He continued on to become Master Namer and then Chancellor of the University, though this was short lived. He is at least a dozen years younger than the rest of the Masters in the University and is described as an average looking clean shaven man. His dark eyes are often depicted as his most striking feature. He is well-known for his eccentric personality and erratic antics. This causes some in the University to look down upon him; nevertheless, as befits his position as a Master, he demonstrates an understanding of his respective field of study that few in the modern world can equal. Elodin is best known for his committal and ensuing escape from Haven.",
       "gender" : "Male",
       "name" : "Elodin",
       "species" : "Human",
-      "tagLine" : "Elodin is the Master Namer at the University"
+      "tagLine" : "Elodin is the Master Namer at the University",
+      "image": "http://img05.deviantart.net/9dca/i/2016/065/a/e/elodin_by_belegilgalad-d9u4h6m.jpg"
     }
   }
 }
