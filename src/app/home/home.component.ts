@@ -12,6 +12,11 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   characters;
+  selectedCategory: string = "allCharacters";
+  
+  onChange(optionFromMenu) {
+    this.selectedCategory = optionFromMenu;
+  }
 
   constructor(private router: Router, private characterService: CharacterService) { }
 

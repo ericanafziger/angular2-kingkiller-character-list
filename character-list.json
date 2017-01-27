@@ -1,30 +1,68 @@
-{ "characters": [{
-    "name": "Ambrose Jakis",
-    "tagLine": "The firstborn son of a powerful and wealthy nobleman from Vintas, the Baron Jakis. He is the main rival of Kvothe during his time at the University.",
-    "description": "Ambrose's family is currently 12th in the line of succession to the Vintic throne and Kvothe describes him as richer than God. Ambrose has a bad reputation, most specifically for mistreating women. He is depicted as a high ranking gentleman with soft, pale skin and a constant scowl. He writes poetry and is also a Scriv under Master Lorren.",
-    "category": "Villian",
-    "species": "Human",
-    "gender": "Male"
-    }, {
-    "name": "Denna",
-    "tagLine": "Denna is arguably the main romantic interest of Kvothe who holds an irresistible fascination with her.",
-    "description": "She is poor, homeless, and prone to wandering, but manages to make a decent living using her voice and charm. Men have a fatal attraction to her, an attraction she can never seem to return. When a man gets too familiar with her, she will often leave town quickly and silently. Due to this, she goes by various different names and aliases, including Dianne, Dinnah, Dyanae, Dinael, Dinay, Dianah, Donna, Dyane and Alora.",
-    "category": "Neutral",
-    "species": "Human",
-    "gender": "Female"
-    }, {
-    "name": "Kvothe",
-    "tagLine": "Kvothe is the main character in the Kingkiller Chronicle. He is exceptionally intelligent, quick-witted, sharp-tongued and clever, as well as a talented musician.",
-    "description": "Kvothe was born to Arliden and Laurian, leaders of an Edema Ruh troupe under the patronage of Baron Greyfallow. His early education is spotty and eclectic, his teachers being troupers and travellers. This changes when his troupe picks up an arcanist named Abenthy. Meeting Abenthy was a pivotal moment in Kvothe's life, as during his first encounter with the arcanist, he witnesses him call the name of the wind. This ability sparks his interest and ultimately leads him to the University. Abenthy instructs Kvothe in Sympathy, Chemistry, Rhetoric, and Arithmetic, in preperation for his admittance to the University. Abenthy eventually left the troupe, much to Kvothe's dismay. After Abenthy's departure, Kvothe's eclectic education witht he troupe is stepped up to keep him busy. Not long later his troupe is brutally murdered by the Chandrian, Kvothe escapes by because he is playing in the forest away from the road. When he returns his brief encounter with he Chandrian is disrupted when they suddenly leave, seeming to flee discovery from some unseen presence.",
-    "category": "Hero",
-    "species": "Human",
-    "gender": "Male"
-  }, {
-    "name": "Auri",
-    "tagLine": "Auri is a former student of The University and a close friend of Kvothe.",
-    "description": "Auri is a young woman described as appearing a few years older than Kvothe, with blonde hair and a delicate, petite frame. Her hair is long and thin, causing it to float around her head like a halo. She often displays very proper manners and conducts herself with a gentle and careful air. Although she lives in a rather dangerous environment and sometimes displays extremely eccentric behavior, she is very intelligent and quite capable of taking care of herself. She also is shown to be skilled in alchemy and possibly naming. Elodin tells Kvothe that he has known about Auri for years. This along with her young appearance would mean she was inducted in the University at a very young age. This also implies she may be older than she appears. The name Auri is similar to 'aureum', which means 'gold' or 'golden' in Latin. This may be related to her blonde hair.",
-    "category": "Neutral",
-    "species": "Human",
-    "gender": "Female"
-  }]
+{
+  "characters" : {
+    "0" : {
+      "category" : "Villian",
+      "description" : "Ambrose's family is currently 12th in the line of succession to the Vintic throne and Kvothe describes him as richer than God. Ambrose has a bad reputation, most specifically for mistreating women. He is depicted as a high ranking gentleman with soft, pale skin and a constant scowl. He writes poetry and is also a Scriv under Master Lorren.",
+      "gender" : "Male",
+      "name" : "Ambrose Jakis",
+      "species" : "Human",
+      "tagLine" : "The firstborn son of a powerful and wealthy nobleman from Vintas, the Baron Jakis. He is the main rival of Kvothe during his time at the University."
+    },
+    "1" : {
+      "category" : "Neutral",
+      "description" : "She is poor, homeless, and prone to wandering, but manages to make a decent living using her voice and charm. Men have a fatal attraction to her, an attraction she can never seem to return. When a man gets too familiar with her, she will often leave town quickly and silently. Due to this, she goes by various different names and aliases, including Dianne, Dinnah, Dyanae, Dinael, Dinay, Dianah, Donna, Dyane and Alora.",
+      "gender" : "Female",
+      "name" : "Denna",
+      "species" : "Human",
+      "tagLine" : "Denna is arguably the main romantic interest of Kvothe who holds an irresistible fascination with her."
+    },
+    "2" : {
+      "category" : "Hero",
+      "description" : "Kvothe was born to Arliden and Laurian, leaders of an Edema Ruh troupe under the patronage of Baron Greyfallow. His early education is spotty and eclectic, his teachers being troupers and travellers. This changes when his troupe picks up an arcanist named Abenthy. Meeting Abenthy was a pivotal moment in Kvothe's life, as during his first encounter with the arcanist, he witnesses him call the name of the wind. This ability sparks his interest and ultimately leads him to the University. Abenthy instructs Kvothe in Sympathy, Chemistry, Rhetoric, and Arithmetic, in preperation for his admittance to the University. Abenthy eventually left the troupe, much to Kvothe's dismay. After Abenthy's departure, Kvothe's eclectic education witht he troupe is stepped up to keep him busy. Not long later his troupe is brutally murdered by the Chandrian, Kvothe escapes by because he is playing in the forest away from the road. When he returns his brief encounter with he Chandrian is disrupted when they suddenly leave, seeming to flee discovery from some unseen presence.",
+      "gender" : "Male",
+      "name" : "Kvothe",
+      "species" : "Human",
+      "tagLine" : "Kvothe is the main character in the Kingkiller Chronicle. He is exceptionally intelligent, quick-witted, sharp-tongued and clever, as well as a talented musician."
+    },
+    "3" : {
+      "category" : "Neutral",
+      "description" : "Auri is a young woman described as appearing a few years older than Kvothe, with blonde hair and a delicate, petite frame. Her hair is long and thin, causing it to float around her head like a halo. She often displays very proper manners and conducts herself with a gentle and careful air. Although she lives in a rather dangerous environment and sometimes displays extremely eccentric behavior, she is very intelligent and quite capable of taking care of herself. She also is shown to be skilled in alchemy and possibly naming. Elodin tells Kvothe that he has known about Auri for years. This along with her young appearance would mean she was inducted in the University at a very young age. This also implies she may be older than she appears. The name Auri is similar to 'aureum', which means 'gold' or 'golden' in Latin. This may be related to her blonde hair.",
+      "gender" : "Female",
+      "name" : "Auri",
+      "species" : "Human",
+      "tagLine" : "Auri is a former student of The University and a close friend of Kvothe."
+    },
+    "4" : {
+      "category" : "Neutral",
+      "description" : "One of the magical Fae, Felurian is essentially considered the most beautiful and insatiable woman in the known worlds. She is described as having pale, smooth skin that shimmers in the moonlight, and long black hair \"like a sheaf of shadows.\" She has a petal-shaped mouth and dark, curious eyes. Her eyelids are patterned with designs resembling a butterfly's wings.\n\nDue to Felurian's erotic disposition, she is almost always nude. She enjoys music, often personally enticing men with the sound of her singing. She is infamous in legend for seducing human men with her beauty, inevitably to either kill them through sexual exhaustion or to drive them insane. However, Kvothe learns during his encounter with Felurian that it is not necessarily her excessive lust that drives men to madness - rather, after she eventually tires of her lovers and sends them away, they go mad from wanting her.",
+      "gender" : "Female",
+      "name" : "Felurian",
+      "species" : "Fae",
+      "tagLine" : "Felurian is a seemingly immortal Fae, known in folktales throughout The Four Corners of Civilization"
+    },
+    "5" : {
+      "category" : "Hero",
+      "description" : "Bast is first described as dark and charming. He has a quick smile and cunning blue eyes. His features are sharp and delicate, giving him an almost beautiful visage. Bast is later revealed to be a Fae creature under a glamoury. His true appearance is similar except for his eyes become fully blue with no sclera and his boots turn to cloven hooves. He is over 150 years old and a noble of the Faen Courts. His full title is Bastas, Son of Remmen, Prince of Twilight and the Telwyth Mael.",
+      "gender" : "Male",
+      "name" : "Bast",
+      "species" : "Fae",
+      "tagLine" : "Bast is Kvothe's student, apprentice, and assistant who lives with him at the Waystone Inn. He is a main character in the frame story."
+    },
+    "6" : {
+      "category" : "Neutral",
+      "description" : "Fela is described as strikingly beautiful with clear bright eyes and long dark hair. She is very intelligent and works in many different fields of study. Some of these include Artificing, Mathematics, and Naming. She can effectively call the name of stone. She is also a Scriv in the Archives.",
+      "gender" : "Female",
+      "name" : "Fela",
+      "species" : "Human",
+      "tagLine" : "Fela is a smart and beautiful woman who is a classmate and friend of Kvothe at The University."
+    },
+    "7" : {
+      "category" : "Neutral",
+      "description" : "Master Elodin was an exceptionally brilliant student and also the youngest to have ever been admitted to the University, at the age of 14. By the time he turned 18, he had become a Full Arcanist and began working as a Giller. He continued on to become Master Namer and then Chancellor of the University, though this was short lived.\n\nHe is at least a dozen years younger than the rest of the Masters in the University and is described as an average looking clean shaven man. His dark eyes are often depicted as his most striking feature. He is well-known for his eccentric personality and erratic antics. This causes some in the University to look down upon him; nevertheless, as befits his position as a Master, he demonstrates an understanding of his respective field of study that few in the modern world can equal.\n\nElodin is best known for his committal and ensuing escape from Haven.",
+      "gender" : "Male",
+      "name" : "Elodin",
+      "species" : "Human",
+      "tagLine" : "Elodin is the Master Namer at the University"
+    }
+  }
 }

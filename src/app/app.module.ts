@@ -13,6 +13,7 @@ import { CharacterDetailComponent } from './character-detail/character-detail.co
 import { NewCharacterComponent } from './new-character/new-character.component';
 import { EditCharacterComponent } from './edit-character/edit-character.component';
 import { EditDetailComponent } from './edit-detail/edit-detail.component';
+import { FilterPipe } from './filter.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     CharacterDetailComponent,
     NewCharacterComponent,
     EditCharacterComponent,
-    EditDetailComponent
+    EditDetailComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
