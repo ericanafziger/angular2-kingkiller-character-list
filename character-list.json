@@ -72,5 +72,9 @@
       "tagLine" : "Elodin is the Master Namer at the University",
       "image": "http://img05.deviantart.net/9dca/i/2016/065/a/e/elodin_by_belegilgalad-d9u4h6m.jpg"
     }
+  },
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
   }
 }
