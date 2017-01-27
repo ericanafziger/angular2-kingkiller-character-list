@@ -11,10 +11,14 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
 })
 export class EditCharacterComponent implements OnInit {
   characters;
+  filterCategory: string = "allCharacters";
   constructor(private characterService: CharacterService, private router: Router) { }
 
   ngOnInit() {
     this.characters = this.characterService.getCharacters();
+  }
+  onChange(category) {
+    this.filterCategory = category;
   }
   toEditCharacter(characterToEdit) {
     this.router.navigate(['edit-character', characterToEdit.$key]);

@@ -1,6 +1,16 @@
 <div class="container">
   <h3>Click on Character to Edit</h3>
-  <div class='panel panel-default' *ngFor="let character of characters | async" (click)="toEditCharacter(character)">
+  <div class="form-group">
+    <label>Sort By:</label>
+    <select class="form-control" (change)="onChange($event.target.value)">
+      <option value="allCharacters">All Characters</option>
+      <option value="femaleCharacters">Female Characters</option>
+      <option value="maleCharacters">Male Characters</option>
+      <option value="humanCharacters">Human Characters</option>
+      <option value="faeCharacters">Fae Characters</option>
+    </select>
+  </div>
+  <div class='panel panel-default' *ngFor="let character of characters | async | filter:filterCategory" (click)="toEditCharacter(character)">
     <div class="panel-heading">
       <h4 class="panel-title">{{character.name}}</h4>
     </div>
