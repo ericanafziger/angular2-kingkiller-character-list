@@ -26,8 +26,10 @@
   margin: 1%;
 }
 .panel-body {
+  position: relative;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 img {
   margin: 0 auto;
@@ -38,8 +40,12 @@ img {
 .text {
   border-top: 1px solid lightgrey;
   padding-top: 10px;
-  text-align: center;
   margin-top: 10px;
+  height: 150px;
+}
+.bodyStatic {
+  position: relative;
+  bottom: 0;
 }
 @media screen and (max-width: 992px) {
   .panel {
