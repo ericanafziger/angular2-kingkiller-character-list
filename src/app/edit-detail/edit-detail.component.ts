@@ -24,8 +24,8 @@ export class EditDetailComponent implements OnInit {
   goBack() {
     this.router.navigate(['edit-character']);
   }
-  saveEdit(name:string, tagLine:string, description:string, category:string) {
-    var editedCharacter = new Character(description, name, tagLine, category);
+  saveEdit(name:string, tagLine:string, description:string, category:string, species: string, gender: string) {
+    var editedCharacter = new Character(description, name, tagLine, category, species, gender);
     this.characterService.editCharacter(editedCharacter, this.characterId);
     this.router.navigate(['edit-character']);
   }

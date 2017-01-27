@@ -29,6 +29,8 @@ export class CharacterService {
       tagLine: editedCharacter.tagLine,
       description: editedCharacter.description,
       category: editedCharacter.category,
+      species: editedCharacter.species,
+      gender: editedCharacter.gender,
     });
   }
 

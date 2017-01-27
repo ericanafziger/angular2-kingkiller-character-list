@@ -14,8 +14,8 @@ export class NewCharacterComponent {
 
   constructor(private chracterService: CharacterService, private router: Router) { }
 
-  submitNewCharacter(description: string, name: string, tagLine: string, category: string) {
-    var newCharacter = new Character(description, name, tagLine, category);
+  submitNewCharacter(description: string, name: string, tagLine: string, category: string, gender: string, species: string) {
+    var newCharacter = new Character(description, name, tagLine, category, species, gender);
     this.chracterService.addCharacter(newCharacter);
     this.router.navigate(['']);
   }
