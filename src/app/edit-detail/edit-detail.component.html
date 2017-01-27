@@ -1,0 +1,32 @@
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a routerLink="">Back to Edit Character List</a></li>
+  </ol>
+  <div class='panel panel-default'>
+    <div class="panel-heading">
+      <h4 class="panel-title">Edit Character</h4>
+    </div>
+    <div class="panel-body">
+      <div class="form-group">
+        <label>Name:</label>
+        <input type="text" class="form-control" #name value="{{(characterToEdit | async)?.name}}">
+      </div>
+      <div class="form-group">
+        <label>Tag Line:</label>
+        <input type="text" class="form-control" #tagLine value="{{(characterToEdit | async)?.tagLine}}">
+      </div>
+      <div class="form-group">
+        <label>Description:</label>
+        <textarea rows="4" type="text" class="form-control" #description value="{{(characterToEdit | async)?.description}}"></textarea>
+      </div>
+      <div class="form-group">
+        <select class="form-control">
+          <option>Hero</option>
+          <option>Villian</option>
+          <option>Neutral</option>
+        </select>
+      </div>
+      <button type="button" class="btn btn-warning">Save</button>
+    </div>
+  </div>
+</div>

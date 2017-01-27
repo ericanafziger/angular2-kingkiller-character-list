@@ -3,7 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NewCharacterComponent } from './new-character/new-character.component';
+import { EditCharacterComponent } from './edit-character/edit-character.component';
 import { CharacterDetailComponent } from './character-detail/character-detail.component';
+import { EditDetailComponent } from './edit-detail/edit-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +23,14 @@ const appRoutes: Routes = [
   {
     path: 'new-character',
     component: NewCharacterComponent
+  },
+  {
+    path: 'edit-character',
+    component: EditCharacterComponent
+  },
+  {
+    path: 'edit-character/:id',
+    component: EditDetailComponent
   },
 ];
 

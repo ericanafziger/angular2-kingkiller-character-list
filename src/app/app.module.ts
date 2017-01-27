@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { CharacterDetailComponent } from './character-detail/character-detail.component';
 import { NewCharacterComponent } from './new-character/new-character.component';
+import { EditCharacterComponent } from './edit-character/edit-character.component';
+import { EditDetailComponent } from './edit-detail/edit-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -25,7 +27,9 @@ export const firebaseConfig = {
     HomeComponent,
     AboutComponent,
     CharacterDetailComponent,
-    NewCharacterComponent
+    NewCharacterComponent,
+    EditCharacterComponent,
+    EditDetailComponent
   ],
   imports: [
     BrowserModule,

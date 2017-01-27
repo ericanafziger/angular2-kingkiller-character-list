@@ -1,0 +1,13 @@
+<div class="container">
+  <h3>Click on Character to Edit</h3>
+  <div class='panel panel-default' *ngFor="let character of characters | async" (click)="toEditCharacter(character)">
+    <div class="panel-heading">
+      <h4 class="panel-title">{{character.name}}</h4>
+    </div>
+    <div class="panel-body">
+      <p>{{character.tagLine}}</p>
+      <p>{{character.description}}</p>
+      <p>{{character.category}}</p>
+    </div>
+  </div>
+</div>
