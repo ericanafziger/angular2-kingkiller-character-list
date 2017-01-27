@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Character } from '../character.model';
 import { CharacterService } from '../character.service';
 import { Router } from '@angular/router';
 
@@ -13,7 +12,7 @@ export class HomeComponent implements OnInit {
 
   characters;
   selectedCategory: string = "allCharacters";
-  
+
   onChange(optionFromMenu) {
     this.selectedCategory = optionFromMenu;
   }
