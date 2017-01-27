@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.phone-nav {
+  position: absolute;
+  top: 5px;
+  list-style: none;
+  right: 25px;
+}

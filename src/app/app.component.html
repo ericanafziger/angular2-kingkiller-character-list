@@ -1,3 +1,17 @@
-<h1>
-  {{title}}
-</h1>
+<nav class="navbar navbar-default">
+   <div class="container-fluid">
+     <div class="navbar-header">
+       <a class="navbar-brand" routerLink="">Kingkiller Chronicles</a>
+     </div>
+     <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+       <li><a routerLink="">Home</a></li>
+       <li><a routerLink="about">About</a></li>
+       <li><a routerLink="">Add Character</a></li>
+     </ul>
+     <!--PHONE NAV MENU-->
+     <ul class="phone-nav hidden-md hidden-lg">
+       <li class="menu"><a href="#"><img src="assets/img/btn-compact-nav.svg"></a></li>
+     </ul>
+   </div><!--end of navbar container-fluid-->
+ </nav>
+<router-outlet></router-outlet>
