@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC");
+body {
+  background: #ededed !important; }
+
 .navbar.navbar-default {
   margin-bottom: 0px; }
 
@@ -6,6 +10,10 @@
   top: 5px;
   list-style: none;
   right: 25px; }
+
+.navbar-default a.navbar-brand {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 1.4em; }
 
 .flexed {
   display: flex;
@@ -25,16 +33,11 @@
   object-fit: cover; }
 
 .footer {
-  max-width: 1170px;
   margin-top: 40px;
   background: #37474F;
   color: white;
   padding: 20px 35px 25px 35px;
   text-align: center; }
-
-.row.footer {
-  margin-left: auto;
-  margin-right: auto; }
 
 .footer h3 {
   font-weight: lighter;
