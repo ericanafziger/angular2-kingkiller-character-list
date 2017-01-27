@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CharacterService } from '../character.service';
 import { Character } from '../character.model';
-import { ActivatedRoute, Params  } from '@angular/router';
+import { ActivatedRoute, Params, Router  } from '@angular/router';
 
 @Component({
   selector: 'app-edit-detail',
@@ -11,7 +11,7 @@ import { ActivatedRoute, Params  } from '@angular/router';
 })
 export class EditDetailComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute, private characterService: CharacterService) { }
+  constructor(private router: Router, private route: ActivatedRoute, private characterService: CharacterService) { }
   characterId: string;
   characterToEdit;
 
@@ -20,6 +20,11 @@ export class EditDetailComponent implements OnInit {
       this.characterId = urlParameters['id'];
     });
     this.characterToEdit = this.characterService.getCharacterById(this.characterId);
+  }
+  saveEdit(name:string, tagLine:string, description:string, category:string) {
+    var editedCharacter = new Character(description, name, tagLine, category);
+    this.characterService.editCharacter(editedCharacter, this.characterId);
+    this.router.navigate(['edit-character']);
   }
 
 }

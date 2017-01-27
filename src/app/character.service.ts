@@ -21,4 +21,14 @@ export class CharacterService {
   addCharacter(characterToAdd: Character) {
     this.characters.push(characterToAdd);
   }
+
+  editCharacter(editedCharacter: Character, characterId: string) {
+    var characterToEdit = this.getCharacterById(characterId);
+    characterToEdit.update({
+      name: editedCharacter.name,
+      tagLine: editedCharacter.tagLine,
+      description: editedCharacter.description,
+      category: editedCharacter.category,
+    });
+  }
 }

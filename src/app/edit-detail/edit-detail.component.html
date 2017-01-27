@@ -20,13 +20,14 @@
         <textarea rows="4" type="text" class="form-control" #description value="{{(characterToEdit | async)?.description}}"></textarea>
       </div>
       <div class="form-group">
-        <select class="form-control">
-          <option>Hero</option>
-          <option>Villian</option>
-          <option>Neutral</option>
+        <label>Category:</label>
+        <select class="form-control" #category value="{{(characterToEdit | async)?.category}}">
+          <option value="Hero">Hero</option>
+          <option value="Villian">Villian</option>
+          <option value="Neutral">Neutral</option>
         </select>
       </div>
-      <button type="button" class="btn btn-warning">Save</button>
+      <button type="button" class="btn btn-warning" (click)="saveEdit(name.value, tagLine.value, description.value, category.value)">Save</button>
     </div>
   </div>
 </div>
