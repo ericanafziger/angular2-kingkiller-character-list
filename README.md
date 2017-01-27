@@ -20,10 +20,10 @@ This project was generated with [angular-cli](https://github.com/angular/angular
   * databaseURL: "https://xxxx.firebaseio.com",
   * storageBucket: "xxxx.appspot.com",
   * messagingSenderId: "xxxx" };
-  * On the left hand menu navigate to Database and then the tab rules
-  * Change both read and write rules to the boolean true
-  * Navigate to the Data tab and click on the three dropdown dots
-  * Choose import JSON and upload the character-list.json file from the project directory to get started using the app
+* On the left hand menu navigate to Database and then the tab rules
+* Change both read and write rules to the boolean true
+* Navigate to the Data tab and click on the three dropdown dots
+* Choose import JSON and upload the character-list.json file from the project directory to get started using the app
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
