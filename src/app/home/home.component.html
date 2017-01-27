@@ -1,4 +1,8 @@
-<div *ngFor="let character of characters | async">
-  <h2>{{character.name}}</h2>
-  <h4>{{character.tagLine}}</h4>
+<div class="container">
+  <div class='panel panel-default' *ngFor="let character of characters | async" (click)="toCharacterDetail(character)">
+    <div class="panel-heading">
+      <h4 class="panel-title">{{character.name}}</h4>
+    </div>
+    <p class="panel-body">{{character.tagLine}}</p>
+  </div>
 </div>
