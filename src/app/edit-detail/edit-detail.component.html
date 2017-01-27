@@ -42,7 +42,11 @@
           <option value="Female">Female</option>
         </select>
       </div>
-      <button type="button" class="btn btn-warning" (click)="saveEdit(name.value, tagLine.value, description.value, category.value, species.value, gender.value)">Save</button>
+      <div class="form-group">
+        <label>Image URL:</label>
+        <input type="text" class="form-control" #image value="{{(characterToEdit | async)?.image}}">
+      </div>
+      <button type="button" class="btn btn-warning" (click)="saveEdit(name.value, tagLine.value, description.value, category.value, species.value, gender.value, image.value)">Save</button>
       <button type="button" class="btn btn-danger" (click)="deleteCharacter()">Delete</button>
     </div>
   </div>

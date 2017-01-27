@@ -9,13 +9,17 @@
       <option value="faeCharacters">Fae Characters</option>
     </select>
   </div>
-  <div class='panel panel-default' *ngFor="let character of characters | async | filter:selectedCategory" (click)="toCharacterDetail(character)">
-    <div class="panel-heading">
-      <h4 class="panel-title">{{character.name}}</h4>
-    </div>
-    <div class="panel-body">
-      <img class="profilePhoto" src="{{character.image}}" alt="{{character.name}}">
-      <p>{{character.tagLine}}</p>
+  <div class="panel-container">
+    <div class='panel panel-default' *ngFor="let character of characters | async | filter:selectedCategory" (click)="toCharacterDetail(character)">
+      <div class="panel-heading">
+        <h4 class="panel-title">{{character.name}}</h4>
+      </div>
+      <div class="panel-body">
+        <img class="profilePhoto" src="{{character.image}}" alt="{{character.name}}">
+        <div class="text">
+          <p>{{character.tagLine}}</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -10,11 +10,13 @@
     </div>
     <div class="panel-body">
       <img class="profilePhoto" src="{{(characterToDisplay | async)?.image}}" alt="{{(characterToDisplay | async)?.name}}">
-      <p>{{(characterToDisplay | async)?.tagLine}}</p>
-      <p>{{(characterToDisplay | async)?.description}}</p>
-      <p>Hero or Villian: <strong>{{(characterToDisplay | async)?.category}}</strong></p>
-      <p>Species: <strong>{{(characterToDisplay | async)?.species}}</strong></p>
-      <p>Gender: <strong>{{(characterToDisplay | async)?.gender}}</strong></p>
+      <div class="text">
+        <p>{{(characterToDisplay | async)?.tagLine}}</p>
+        <p>{{(characterToDisplay | async)?.description}}</p>
+        <p>Hero or Villian: <strong>{{(characterToDisplay | async)?.category}}</strong></p>
+        <p>Species: <strong>{{(characterToDisplay | async)?.species}}</strong></p>
+        <p>Gender: <strong>{{(characterToDisplay | async)?.gender}}</strong></p>
+      </div>
     </div>
   </div>
 </div>

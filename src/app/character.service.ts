@@ -31,6 +31,7 @@ export class CharacterService {
       category: editedCharacter.category,
       species: editedCharacter.species,
       gender: editedCharacter.gender,
+      image: editedCharacter.image,
     });
   }
 

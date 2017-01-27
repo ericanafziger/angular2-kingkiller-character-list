@@ -1,0 +1,7 @@
+.panel-body {
+  display: flex;
+}
+.text {
+  border-left: 1px solid lightgrey;
+  padding-left: 20px;
+}
