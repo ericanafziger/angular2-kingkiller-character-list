@@ -1,6 +1,6 @@
 <div class="container">
   <ol class="breadcrumb">
-    <li><a routerLink="">Back to Edit Character List</a></li>
+    <li><a (click)="goBack()">Back to Edit Character List</a></li>
   </ol>
   <div class='panel panel-default'>
     <div class="panel-heading">
@@ -28,6 +28,7 @@
         </select>
       </div>
       <button type="button" class="btn btn-warning" (click)="saveEdit(name.value, tagLine.value, description.value, category.value)">Save</button>
+      <button type="button" class="btn btn-danger" (click)="deleteCharacter()">Delete</button>
     </div>
   </div>
 </div>

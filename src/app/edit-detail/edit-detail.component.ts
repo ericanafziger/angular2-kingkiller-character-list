@@ -21,10 +21,18 @@ export class EditDetailComponent implements OnInit {
     });
     this.characterToEdit = this.characterService.getCharacterById(this.characterId);
   }
+  goBack() {
+    this.router.navigate(['edit-character']);
+  }
   saveEdit(name:string, tagLine:string, description:string, category:string) {
     var editedCharacter = new Character(description, name, tagLine, category);
     this.characterService.editCharacter(editedCharacter, this.characterId);
     this.router.navigate(['edit-character']);
   }
-
+  deleteCharacter() {
+    if(confirm("Are you sure you want to delete this character?")) {
+      this.characterService.deleteCharacter(this.characterId);
+      this.router.navigate(['edit-character']);
+    }
+  }
 }

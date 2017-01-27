@@ -31,4 +31,9 @@ export class CharacterService {
       category: editedCharacter.category,
     });
   }
+
+  deleteCharacter(characterId: string) {
+    var characterToDelete = this.getCharacterById(characterId);
+    characterToDelete.remove();
+  }
 }
