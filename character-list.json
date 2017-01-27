@@ -2,21 +2,21 @@
     "name": "Ambrose Jakis",
     "tagLine": "The firstborn son of a powerful and wealthy nobleman from Vintas, the Baron Jakis. He is the main rival of Kvothe during his time at the University.",
     "description": "Ambrose's family is currently 12th in the line of succession to the Vintic throne and Kvothe describes him as richer than God. Ambrose has a bad reputation, most specifically for mistreating women. He is depicted as a high ranking gentleman with soft, pale skin and a constant scowl. He writes poetry and is also a Scriv under Master Lorren.",
-    "villian": true
+    "category": "Villian"
     }, {
     "name": "Denna",
     "tagLine": "Denna is arguably the main romantic interest of Kvothe who holds an irresistible fascination with her.",
     "description": "She is poor, homeless, and prone to wandering, but manages to make a decent living using her voice and charm. Men have a fatal attraction to her, an attraction she can never seem to return. When a man gets too familiar with her, she will often leave town quickly and silently. Due to this, she goes by various different names and aliases, including Dianne, Dinnah, Dyanae, Dinael, Dinay, Dianah, Donna, Dyane and Alora.",
-    "villian": false
+    "category": "Neutral"
     }, {
     "name": "Kvothe",
     "tagLine": "Kvothe is the main character in the Kingkiller Chronicle. He is exceptionally intelligent, quick-witted, sharp-tongued and clever, as well as a talented musician.",
     "description": "Kvothe was born to Arliden and Laurian, leaders of an Edema Ruh troupe under the patronage of Baron Greyfallow. His early education is spotty and eclectic, his teachers being troupers and travellers. This changes when his troupe picks up an arcanist named Abenthy. Meeting Abenthy was a pivotal moment in Kvothe's life, as during his first encounter with the arcanist, he witnesses him call the name of the wind. This ability sparks his interest and ultimately leads him to the University. Abenthy instructs Kvothe in Sympathy, Chemistry, Rhetoric, and Arithmetic, in preperation for his admittance to the University. Abenthy eventually left the troupe, much to Kvothe's dismay. After Abenthy's departure, Kvothe's eclectic education witht he troupe is stepped up to keep him busy. Not long later his troupe is brutally murdered by the Chandrian, Kvothe escapes by because he is playing in the forest away from the road. When he returns his brief encounter with he Chandrian is disrupted when they suddenly leave, seeming to flee discovery from some unseen presence.",
-    "villian": false
+    "category": "Hero"
   }, {
     "name": "Auri",
     "tagLine": "Auri is a former student of The University and a close friend of Kvothe.",
     "description": "Auri is a young woman described as appearing a few years older than Kvothe, with blonde hair and a delicate, petite frame. Her hair is long and thin, causing it to float around her head like a halo. She often displays very proper manners and conducts herself with a gentle and careful air. Although she lives in a rather dangerous environment and sometimes displays extremely eccentric behavior, she is very intelligent and quite capable of taking care of herself. She also is shown to be skilled in alchemy and possibly naming. Elodin tells Kvothe that he has known about Auri for years. This along with her young appearance would mean she was inducted in the University at a very young age. This also implies she may be older than she appears. The name Auri is similar to 'aureum', which means 'gold' or 'golden' in Latin. This may be related to her blonde hair.",
-    "villian": false
+    "category": "Neutral"
   }]
 }

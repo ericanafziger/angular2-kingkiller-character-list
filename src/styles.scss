@@ -2,15 +2,15 @@
   position: absolute;
   top: 5px;
   list-style: none;
-  right: 25px; }
-
+  right: 25px;
+}
 .flexed {
   display: flex;
   justify-content: space-around;
-  text-align: center; }
-  .flexed img {
+  text-align: center;
+  img {
     height: 220px;
     object-fit: cover;
-    margin-bottom: 10px; }
-
-/*# sourceMappingURL=styles.css.map */
+    margin-bottom: 10px;
+  }
+}

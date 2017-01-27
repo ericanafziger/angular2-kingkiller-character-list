@@ -11,8 +11,7 @@
     <div class="panel-body">
       <p>{{(characterToDisplay | async)?.tagLine}}</p>
       <p>{{(characterToDisplay | async)?.description}}</p>
-      <p *ngIf="(characterToDisplay | async)?.villian">Villian</p>
-      <p *ngIf="!(characterToDisplay | async)?.villian">Hero</p>
+      <p>Hero or Villian: <strong>{{(characterToDisplay | async)?.category}}</strong></p>
     </div>
   </div>
 </div>

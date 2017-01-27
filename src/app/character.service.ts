@@ -17,4 +17,8 @@ export class CharacterService {
   getCharacterById(characterId: string) {
     return this.angularFire.database.object('/characters/' + characterId)
   }
+
+  addCharacter(characterToAdd: Character) {
+    this.characters.push(characterToAdd);
+  }
 }
