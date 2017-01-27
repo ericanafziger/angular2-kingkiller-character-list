@@ -25,6 +25,9 @@
   flex-basis: 31.3%;
   margin: 1%;
 }
+.panel:hover {
+  cursor: pointer;
+}
 .panel-body {
   position: relative;
   display: flex;
